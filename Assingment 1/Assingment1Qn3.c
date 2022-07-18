@@ -4,7 +4,7 @@
 
 int main()
 {
-   printf("\\"MySirG\\"");
+   printf(" \"MySirG\" ");
 
-    return 0;
+   return 0;
 }
