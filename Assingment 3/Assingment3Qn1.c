@@ -1,4 +1,4 @@
-//Assingment3Qn1
+//Assignment3Qn1
 //1. Write a program to check whether a given number is positive or non-positive.
 
 #include<stdio.h>
