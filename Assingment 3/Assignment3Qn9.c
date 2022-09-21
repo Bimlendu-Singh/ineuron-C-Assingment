@@ -5,10 +5,16 @@
 int main()
 {
 
-   int x;
+   int a,b,c;
 
-   printf("\nEnter a number : ");
-   scanf("%d", &x);
+   printf("\nEnter first number : ");
+   scanf("%d", &a);
+
+   printf("\nEnter second number : ");
+   scanf("%d", &b);
+
+   printf("\nEnter third number : ");
+   scanf("%d", &c);
 
    if(x>0)
      printf("\nPositive\n");
