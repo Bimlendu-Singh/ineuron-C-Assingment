@@ -25,6 +25,11 @@ int main()
       else 
          printf("\nGreatest number is : %d\n", a);  */
 
+    if(a>=b&&a>=c)
+      printf("\nGreatest number is : %d\n", a);
+     else if(b>=c&&b>=a)
+       printf("\nGreatest number is : %d\n", b);
+
      
 
    return 0;
