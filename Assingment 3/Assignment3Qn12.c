@@ -17,7 +17,7 @@ int main()
     else if(x>=97&&x<=122)
      printf("\nLowercase\n");
      else
-      printf("\nInvalid\n");
+      printf("\nOhter Character\n");
      
    return 0;
 
