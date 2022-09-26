@@ -1,4 +1,4 @@
-//15. Write a program to check whether a given number is positive, negative or zero.
+//15. Write a program to check whether a given number is positive, negative or 
 
 #include<stdio.h>
 
