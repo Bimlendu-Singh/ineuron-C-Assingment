@@ -12,7 +12,7 @@ int main()
     while((num&1)==0)  //1&1 is 1 in binary, so using condition accordingly 
     {
         pos++;
-        num = num>>1;  //Left Shifting binary value of num and storing in it again.
+        num = num>>1;  //Right Shifting binary value of num and storing in it again.
     }
 
     printf("Position of first 1 or first set in LSB is : %d" , pos);
