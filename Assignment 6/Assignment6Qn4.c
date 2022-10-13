@@ -1,5 +1,4 @@
-//Assignment6Qn1.c
-//1. Write a program to calculate sum of first N natural numbers
+//4. Write a program to calculate sum of squares of first N natural numbers
 
 #include<stdio.h>
 
@@ -12,7 +11,7 @@ int main()
 
     for(i=1;i<=x;i++)
     {
-        sum = sum + i;
+        sum = sum + i*i;
     }
 
     printf("\nSum is : %d",sum);
