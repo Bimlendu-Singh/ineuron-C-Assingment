@@ -42,8 +42,9 @@ int main()
             {
                 lcm = lcm*i;
                 a = a/i;      //If 'a' and 'b' is divisible by 'i', then we will modify a and b as it happens during LCM
-                b = b/i;      //ex : Say 12 and 24 is given number then a = 12/2 = 6 and b = 24/2 =12
-                d=a;          //New value of 'a' & 'b' will be 6 and 12 . Again it will check if 'a'&'b' is further divisible by 2 or not.  
+                b = b/i;      //Ex : Say 12 and 24 is given number then modified a = 12/2 = 6 and b = 24/2 =12
+                          //New value of 'a' & 'b' will be 6 and 12 . Again it will check if 'a'&'b' is further divisible by 2 or not. 
+                d=a;          //Here, 'a' the smallest among both will be stored in d again , hence 'd' is also modified
             }
         }
     }
