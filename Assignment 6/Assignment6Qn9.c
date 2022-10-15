@@ -37,7 +37,7 @@ int main()
         //Only Prime number will enter this if block
         if(count==0)
         {
-            //O
+            //Only prime factor of both input given number will enter this while block
             while((a%i==0)&&(b%i==0))  //Here 'i' will divide both given number until it is not further divisible
             {
                 lcm = lcm*i;
