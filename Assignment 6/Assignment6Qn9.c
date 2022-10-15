@@ -19,30 +19,27 @@ int main()
     else
      d=a;
 
-    for(i=2;i<=d;)
+    for(i=2;i<=d;i++)
     {
         count = 0;
-        i = 2;
+
         for(j=2;j<=i/2;j++)
         {
           if(i%j==0)
           {
             count++;
-            i++;
             break;
           }
         }
         if(count==0)
         {
-            if((a%i==0)&&(b%i==0))
+            while((a%i==0)&&(b%i==0))
             {
                 lcm = lcm*i;
                 a = a/i;
                 b = b/i;
                 d=a;               
             }
-            else
-              i++;
         }
     }
     lcm = (lcm*a)*b;
