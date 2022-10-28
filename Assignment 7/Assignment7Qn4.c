@@ -13,7 +13,7 @@ int main()
     if(x>y)
     {
         a=y;
-        b=x;
+        b=x;         //Here, 'a' will store smallest number and 'b' will store greatest number among them. 
     }
     else
     {
@@ -21,6 +21,7 @@ int main()
         b=y;
     }
 
+    //Loop will will run, until the 'b' or modified 'b' completely get divided by 'a' as it happen in hcf by division method.
     while(b%a!=0)
     {
         temp = a;
