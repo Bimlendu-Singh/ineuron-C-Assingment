@@ -6,7 +6,7 @@ int main()
 {
     int x,y,a,b,temp;
 
-    printf("\nEnter two number : ");
+    printf("\nEnter two number to find their HCF : ");
     scanf("%d",&x);
     scanf("%d",&y);
 
