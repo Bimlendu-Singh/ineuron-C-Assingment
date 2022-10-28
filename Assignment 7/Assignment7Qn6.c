@@ -1,5 +1,7 @@
 //6. Write a program to print all Prime numbers under 100
 
+#include<stdio.h>
+
 int main()
 {
    int i,j,count;
