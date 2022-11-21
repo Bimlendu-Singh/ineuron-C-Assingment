@@ -1,6 +1,4 @@
-//Assignment8Qn1
-
-//Pattern Question 1
+//Pattern Question 3
 
 #include<stdio.h>
 
@@ -12,7 +10,7 @@ int main()
     {
       printf("\n");
       
-      for(j=1;j<=i;j++)
+      for(j=1;j<=6-i;j++)
         printf("*");
     }
 
