@@ -3,6 +3,8 @@
 Expected output format – “Area of circle is A having the radius R”. Replace A with area & R with radius.*/
 
 #include<stdio.h>
+#include<conio.h>
+
 
 int main()
 {
@@ -15,5 +17,9 @@ int main()
 
    printf("\nArea of circle is %.2f having the radius %.2f", a,r);
 
+   getch();
+
+
    return 0;
+
 }
