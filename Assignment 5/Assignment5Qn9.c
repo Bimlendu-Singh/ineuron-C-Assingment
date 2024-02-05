@@ -6,7 +6,7 @@ int main()
 {
     int i,n;
 
-    printf("\nEnter the number of times to print \n");
+    printf("\nEnter the number of times to print : ");
     scanf("%d",&n);
 
     for(i=1;i<=n;i++)
