@@ -38,6 +38,7 @@ int main()
            new = res; 
          }
         }
+        
         printf(" %d ",res);   //Printing the finbonacci number each time
    }
    
