@@ -1,9 +1,14 @@
 //2. Write a program to print first N terms of Fibonacci series
 
 #include<stdio.h>
+#include <time.h>
 
 int main()
 {
+   // Calculate the time taken by fun() 
+    clock_t t; 
+    t = clock();
+    
    int res,pos,i,prev=0,new=1,n,j;
 
    //Fibonacci series 0,1,1,2,3,5,8,13,21,34,55,89,144...
@@ -57,6 +62,11 @@ int main()
    }
    
 
-   return 0;
+    t = clock() - t; 
+    double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds 
+ 
+    printf("\n took %f seconds to execute \n", time_taken);
+  
+  return 0;
 
 }
